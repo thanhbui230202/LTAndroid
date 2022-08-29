@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#00FFFF">
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_chevron_left_24"/>
+            <TextView
+                android:layout_marginTop="19dp"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="Back"
+                android:textSize="25dp"
+                android:textColor="#f8f8ff"/>
+            <TextView
+                android:layout_marginTop="19dp"
+                android:layout_marginLeft="60dp"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="Profile"
+                android:textSize="25dp"
+                android:textColor="#f8f8ff"/>
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="100dp"
+                android:background="@drawable/ic_baseline_settings_24"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+
+            android:layout_height="3dp"/>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:background="#00FFFF"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_marginTop="12dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="130dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="13dp"
+                    android:background="@drawable/ic_baseline_person_24"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="17dp"
+                android:layout_marginLeft="123dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Profile name"
+                android:textSize="28dp"
+                android:textColor="#f8f8ff"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginTop="17dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="125 Friend"
+                    android:textSize="25dp"
+                    android:textColor="#f8f8ff"/>
+                <View
+                    android:layout_marginTop="16dp"
+                    android:layout_width="2dp"
+                    android:background="#FFFFFF"
+                    android:layout_height="60dp"/>
+                <TextView
+                    android:layout_marginTop="17dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:text="250 Followers"
+                    android:textSize="25dp"
+                    android:textColor="#f8f8ff"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="340dp"
+                android:layout_height="200dp"
+                android:background="@drawable/thanhbui"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/editTextTextEmailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:ems="10"
+                    android:text="email: thanhbui230202@gmail.com"
+                    android:background="@drawable/thanhbui"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#0000ff"/>
+
+                <EditText
+                    android:id="@+id/editTextPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/thanhbui"
+                    android:ems="10"
+                    android:text="Phone: +84911710470"
+                    android:inputType="phone"
+                    android:textColor="#0000ff"/>
+
+                <EditText
+                    android:id="@+id/editTextSkype"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/thanhbui"
+                    android:ems="10"
+                    android:text="Skype: me007"
+                    android:inputType="phone"
+                    android:textColor="#0000ff"/>
+
+                <EditText
+                    android:id="@+id/editTextWeb"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/thanhbui"
+                    android:ems="10"
+                    android:text="Web: cssauthor.com/"
+                    android:inputType="phone"
+                    android:textColor="#0000ff"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
