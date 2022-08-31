@@ -3,10 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android/Bai3_Tuan1/app/src/main/res/drawable/gradient.xml" value="0.1205" />
-        <entry key="..\:/Android/Bai3_Tuan1/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Android/Project/Bai3_Tuan1/app/src/main/res/drawable/gradient.xml" value="0.114" />
-        <entry key="..\:/Android/Project/Bai3_Tuan1/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android/Tuan3/app/src/main/res/drawable/ic_wave.xml" value="0.1205" />
+        <entry key="..\:/Android/Tuan3/app/src/main/res/layout/activity_main.xml" value="0.22" />
       </map>
     </option>
   </component>
