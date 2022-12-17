@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "684141602855",
+    "project_id": "th-firebase-66319",
+    "storage_bucket": "th-firebase-66319.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684141602855:android:da6372bb80c51fa90fc602",
+        "android_client_info": {
+          "package_name": "caidat.dmt.th_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684141602855-q24m94t1ec5iac7rve850g3o7spbeb6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfeQ4sT-868C4U6B12D9JRAQlu7-A1DKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684141602855-q24m94t1ec5iac7rve850g3o7spbeb6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684141602855:android:6b3b3f2b625248320fc602",
+        "android_client_info": {
+          "package_name": "com.example.bt_cuoiky"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684141602855-q24m94t1ec5iac7rve850g3o7spbeb6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfeQ4sT-868C4U6B12D9JRAQlu7-A1DKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684141602855-q24m94t1ec5iac7rve850g3o7spbeb6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
